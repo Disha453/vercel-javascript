@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        ::placeholder {
+            color: rgb(237, 213, 104);
+            opacity: 0.7;
+
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url(https://cdn.pixabay.com/photo/2023/02/23/04/45/composition-7807859_640.jpg); background-size: 100%; background-repeat: no-repeat; display: flex; flex-direction: column;justify-content: center; align-items: center; ">
+
+    <div
+        style="background-color: rgba(227, 163, 124, 0.4); width: 600px; height: 700px;display: flex; justify-content: center; ; margin-right: 4%; margin-top: 6%;">
+        <div style="display: flex; flex-direction: column;">
+            <H1 style="display: flex;   justify-content: center;"><u>FORM</u></H1>
+
+            <input type="text" id="Fullname" name="Fullname" value="" placeholder="Fullname" required
+                style="background-color: transparent; border: 2px solid black; border-width: 0 0 2px  0;  margin-top: 5%;font-size: 30px; ">
+
+            <input type="text" id="Lastname" name="Lastname" value="" placeholder="Lastname" required
+                style="background-color: transparent; border: 2px solid black; border-width: 0 0 2px  0; margin-top: 20%; font-size: 30px; ">
+
+
+            <input type="number" id="Age" name="Age" value="" placeholder="Age" required
+                style="background-color: transparent; border: 2px solid black; border-width: 0 0 2px  0; margin-top: 20%; font-size: 30px; ">
+
+
+            <input type="Email" id="Email" name="Email" value="" placeholder="Email" required
+                style="background-color: transparent; border: 2px solid black; border-width: 0 0 2px  0; margin-top: 20%; font-size: 30px; ">
+
+            <div style="display: flex;   justify-content: center;">
+                <button onclick="display()"
+                    style="background-color:  transparent; border-radius: 5px; width: 50%; height: 50px; margin-top: 20%;  ">
+                    Submit</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <div class="container" style="margin-top: 5%;  color:rgb(230, 203, 87);">
+        <table>
+            <thead>
+                <th>Fullname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th>Email</th>
+
+            </thead>
+            <tbody id="r"></tbody>
+        </table>
+    </div>
+
+    <script src="./delet&edit button.js"></script>
+</body>
+
+
+</head>
+
+</html>
